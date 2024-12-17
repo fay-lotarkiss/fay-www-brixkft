@@ -1,0 +1,51 @@
+header {
+    position: sticky;
+    top: 0;
+    text-align: center;
+    padding: 1rem 1rem;
+    background: white;
+    color: black;
+}
+
+body {
+    background: rgb(55, 100, 123);
+    color: white;
+}
+
+#mainmenu {
+    width: 100%;
+}
+
+#mainmenu li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    background: black;
+    margin-right: 0.1rem;
+    padding: 0.5rem;
+}
+
+#mainmenu a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+#mainmenu a:hover {
+    text-decoration: none;
+    color: greenyellow;
+    background: purple;
+}
+
+.section {
+    padding: 1rem;
+    color: black;
+}
+
+.section-odd {
+    background: rgb(224, 209, 204);
+}
+
+.section-even {
+    background: rgb(177, 190, 190);
+}
